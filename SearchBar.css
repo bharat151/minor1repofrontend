@@ -1,0 +1,45 @@
+
+
+#searchBar{
+    width: 100vw;
+    margin: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#searchBar form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#company-field{
+    width: 60%;
+    margin: 1rem;
+    height: 3rem;
+}
+#company-btn{
+    margin-bottom: 3rem;
+    height: 3rem;
+    width: 60%;
+    border-radius: 2rem;
+    background: rgb(110, 1, 182);
+    box-shadow: 0 0 25px rgba(49, 0, 82, 0.699);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: .2s;
+}
+#company-btn:hover{
+    background: #a229f0;
+}
+#searchBar>.searchbar-heading{
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    color: #333;
+    margin: 5rem 0 2rem 0;
+    font-size: 4rem;
+}
